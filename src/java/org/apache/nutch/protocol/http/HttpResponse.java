@@ -293,13 +293,14 @@ public class HttpResponse implements Response {
         this.url = url;
         this.orig = url.toString();
         this.base = url.toString();
-
+/*
 	HttpClient client = new HttpClient();
 	GetMethod method = new GetMethod(url.toString());
 	int statusCode = client.executeMethod(method);
 	content = method.getResponseBody();
 	LOG.info("File Size on Drive: " + content.length);
 //	return;
+*/
     }
 
 
